@@ -1,0 +1,6 @@
+class Length{
+	public static void main(String[] args) {
+		String s="sireesha is a good girl";
+		System.out.println("The lenth of the string is: "+s.length());
+	}
+}
