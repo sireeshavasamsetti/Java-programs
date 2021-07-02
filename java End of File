@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Endoffile{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i=1;
+		for(i=1;sc.haxNext();i++){
+			System.out.println(i + " " +sc.nextLine());
+		}
+		 
+	 }
+}
