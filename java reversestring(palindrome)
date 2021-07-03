@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+class Something{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+
+		int i=0,j=str.length()-1;
+		while(str.charAt(i)==str.charAt(j) && (i++)<=(j--));
+		System.out.println(i>=j?"Yes":"No");
+
+	}
+}
