@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class Sub{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string:");
+		String a = sc.next();
+;
+		int start = sc.nextInt();
+		int end = sc.nextInt();
+
+		System.out.println(a.substring(start,end));
+	}
+}
