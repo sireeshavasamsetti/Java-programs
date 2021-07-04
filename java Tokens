@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.util.*;
+import java.io.*;
+class Androms{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+
+   		s = s.trim();
+
+        if(s.length() > 400000 || s.length() == 0 ){
+
+           System.out.println(0);
+           return;
+        }
+        String words[]=s.trim().split("[ !,?.\\_'@]+");
+   	 	System.out.println(words.length);
+    	for (String word:words)
+        	System.out.println(word);
+	}
+}
